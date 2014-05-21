@@ -236,6 +236,12 @@ color: #fff;
     border-bottom: 1px solid #fff;
 }
 
+#quotearea {
+    width: 200px;
+    height: 200px;
+}
+
+
 /***********media queries**************************/
 
 @media only screen and ( max-width: 479px ) {
@@ -321,6 +327,11 @@ color: #fff;
     height: 200px;
     margin-left: 0;
 }
+
+.quotes {
+   font-size: 1.5em;
+}
+
 
 
 }/*end media 479*/
