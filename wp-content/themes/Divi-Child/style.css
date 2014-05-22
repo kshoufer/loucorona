@@ -251,6 +251,14 @@ color: #fff;
      line-height: 1.5em;
     }
 
+#main-header {
+    background-color: #efefef;
+}
+
+.page {
+    margin: 10px 0 0 0;
+}
+
   #main-slider-box {
     display: none;
   }
@@ -283,7 +291,7 @@ color: #fff;
 
  
 #et_mobile_nav_menu {
-    margin: -20px 10px 0 0;
+    margin: -40px 10px 0 0;
 }
 
 #title-text  {
