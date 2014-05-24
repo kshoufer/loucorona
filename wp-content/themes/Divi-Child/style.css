@@ -209,7 +209,7 @@ top: 80px;
 }/***********end media 768 to 980*************/
 
 /*-------------------[768px]------------------*/
-@media only screen and ( max-width: 980px ) {
+@media only screen and ( max-width: 767px ) {
 
 #main-content {
     margin-top: 100px;
