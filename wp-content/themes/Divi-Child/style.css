@@ -25,15 +25,15 @@ body {
     padding-bottom: 10px;
 }
 
-    #title-text  {
-        display: inline;
-        width: 30%;
-    }    
+#title-text  {
+    display: inline;
+    width: 30%;
+}    
 
-    #title-text a {
-      font-size: 3em;
-      color: #082fff;
-    } 
+#title-text a {
+  font-size: 3em;
+  color: #082fff;
+} 
 
 
 #top-menu ul li a {
@@ -77,28 +77,26 @@ body {
 }
 
 #main-header {
-background-color: #fff;
-/*background-color: #DC6E24;*/
+    background-color: #fff;
 }
 
 #top-menu ul li a {
-color: #fff;
+    color: #fff;
 }
 
 .sub-menu a {
-color: #000077 !important;
+    color: #000077 !important;
 }
 
 
 #top-menu ul li a:hover {
-text-decoration: underline;
-color: #fff;
+    text-decoration: underline;
+    color: #fff;
 }
 
 #et_top_search {
     display: none;
 }
-
 
 #logo_mobile {
     display: none;
@@ -120,72 +118,12 @@ color: #fff;
     padding: 0 .5em .5em 0;
 }
 
-    #kenshoufer-boxes {
-        -moz-column-count:2;
-        -moz-column-gap:10px;
-        /*-webkit-column-count:2;*/
-        -webkit-column-gap:10px;
-        column-count:4;
-        column-gap:10px;
-    }
-    .kenshoufer-box {
-        margin:0 0 10px 0;
-        display:inline-block;
-        width:262px;
-        height:140px;
-        padding:15px;
-        background:#e6e2df;
-        color:#555;
-        -webkit-transition:all 0.2s ease;
-        -moz-transition:all 0.2s ease;
-        background-position:320px 50%;
-        background-repeat:no-repeat;
-        text-decoration: none;
-    }
-    .kenshoufer-box h5 {
-        font: bold 1.3em Sans-Serif !important;
-        text-transform:uppercase;
-        font-size:38px;
-        line-height:1;
-        padding:0 0 10px 0;
-    }
-    .kenshoufer-box:hover h5 {
-        text-shadow:2px 2px 5px rgba(0,0,0,0.8);
-        color:white;
-    }
-    .kenshoufer-box:hover p {
-        color:white;
-    }
-    .kenshoufer-box p {
-        font-size:12px;
-        width:175px;
-        line-height:1.5;
-    }
-    .kenshoufer-box:hover {
-        background-position:200px 50%;
-        -moz-box-shadow:    3px 5px 2px 2px #777;
-        -webkit-box-shadow: 3px 5px 2px 2px #777;
-        box-shadow:         3px 5px 2px 2px #777;
-    }
-
-    
-    #kenshoufer-diw {
-        background-image:url(images/robot1.png);
-        background-position: 300px 30px;
-    }
-    #kenshoufer-diw:hover {
-        /*background-color:#237abe;*/
-        background-color:#800020;
-        background-position: 100px 30px;
-    }
-
-
-    .entry-content tr td {
+.entry-content tr td {
     border-top: 1px solid #EEE;
     padding: 0; 
-    }
+}
 
-    #et_mobile_nav_menu {
+#et_mobile_nav_menu {
     margin: 20px 20px 0 0;
 }
 
@@ -208,7 +146,6 @@ color: #fff;
     display: block;
     margin: 0;
 }
-
 
 #main-content-box {
     margin: -80px 0 0 0;
@@ -246,48 +183,57 @@ color: #fff;
 
 @media only screen and ( max-width: 479px ) {
 
-  #main-content {
-     font-size: 1.5em;
-     line-height: 1.5em;
-    }
+#main-content {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-top: 120px;
+}
 
 #main-header {
-    background-color: #efefef;
+    background-color: #efefef !important;
+}
+
+.mobile_menu_bar:before {
+    content: "b";
 }
 
 .page {
     margin: 10px 0 0 0;
 }
 
-  #main-slider-box {
-    display: none;
-  }
+#main-slider-box {
+display: none;
+}
 
-  #mobile_menu {
-    top: 70px;
-  }
+#et-top-navigation {
+    margin-top: -60px;
+}
 
-  #divider1 {
-    display: none;
-  }
+#mobile_menu {
+top: 90px;
+}
 
-  #blog_title {
-    display: inline;
-    width: 60%;
-  }
+#divider1 {
+display: none;
+}
 
-  #blog_tagline {
-    padding-bottom: 0;
-    font-size: .4em;
-    line-height: 1em;
-    width: 60%;
-  }
+#blog_title {
+display: inline;
+width: 60%;
+}
+
+#blog_tagline {
+padding-bottom: 0;
+font-size: .4em;
+line-height: 1em;
+width: 60%;
+}
 
 
-  bgmp_map-canvas {
-    width: 300px !important;
-    height: 250px !important;
-  }
+bgmp_map-canvas {
+width: 300px !important;
+height: 250px !important;
+}
 
  
 #et_mobile_nav_menu {
@@ -303,7 +249,7 @@ color: #fff;
 
 
 #title-text a {
-      font-size: 1.8em;
+    font-size: 1.8em;
 }
 
 #content-title1 {
@@ -340,6 +286,4 @@ color: #fff;
    font-size: 1.5em;
 }
 
-
-
-}/*end media 479*/
+}/***********end media 479*************/
